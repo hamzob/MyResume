@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <style> 
+body{
+	background-color:#f2f2f2;}
+
+#myfirstdiv{
+	background-color:#000000; 
+	height:50px;
+	top:-20px;
+	position:relative;}
+	
+#myresume{
+	font-family:'sofia';
+	font-size:35px;
+	color:yellow;
+    position: relative;
+    -webkit-animation: myresume 5s infinite; 
+    -webkit-animation-direction: alternate; }
+	
+@-webkit-keyframes myresume{
+    from{left: 0px;}
+    to{left: 100px;}
+    from{left: 30px;}}
+
+#img1{
+	float:left;
+	height:160px; 
+	width:250px;
+	padding-right:10px;}
+
+#div2{
+	height:160px;
+	position:relative;
+	top:-20px;}
+
+.fa{
+	font-size:24px;
+	color:green;}
+
+#name{
+	font-weight:bold;
+	font-size:24px;}
+
+#nameicon{
+	color:orange;
+}
+
+#phoneicon{
+	font-size:24px;
+	color:green;}
+
+#phonenumber{
+	font-size:18px;}
+
+#emailicon{
+	color:blue;
+	font-size:24px;}
+
+#email{
+	font-size:18px;
+	font-weight:bold;}
+	
+#linkedinicon{
+	font-size:30px;
+	color: #0077b3;}
+
+#linkedin{font-size:18px;}
+
+#location{
+	color:red;
+	size:24px;}
+
+#hline1{
+    border-left: 1400px solid black;
+    height:1px;
+	position:relative;
+	top:-20px;}
+
+#educationicon{
+	color:black;
+	font-size:30px;
+	word-spacing:-20px;}
+
+#myprogressbar{
+  width: 100%;
+  background-color: #ddd;}
+	
+#myprogress{
+ width: 10%;
+ height: 30px;
+ background-color:orange;
+ text-align: center;
+ line-height: 30px;
+ color: white;}
+ 
+#summary{
+ position:relative;
+ top:-15px;
+ text-decoration: underline;
+ font-weight: bold;
+ font-size: large;
+ }
+#summaryParagraph{
+ position:relative;
+ top:-25px;
+}
+#technicalSkills{
+ position:relative;
+ top:-30px;
+ text-decoration: underline;
+ font-weight: bold;
+ font-size: large;
+}
+
+#techSkillsList{
+ position:relative;
+ top:-40px;
+}
+
+#experience{
+position:relative;
+top:-45px;
+font-weight:bold;
+font-size:18px;
+text-decoration:underline;
+}
+
+#duration{
+word-spacing:480px;
+}
+
+</style>
+
+</head>
+<title>
+My Resume 
+</title>
+<body>
+<div id="myfirstdiv">
+<h1 id="myresume"> My Resume: "don't imagine what I might be, see what I can do..." </h1>
+</div>
+<div id="div2">
+<address>
+<i class="fa" id="nameicon">&#xf007;</i><span id="name">: Hamzat Balogun</span><br>
+<span class="glyphicon glyphicon-phone-alt" id="phoneicon"></span><span id="phonenumber">: (613)-402-2363</span> <br>
+<span class="glyphicon glyphicon-envelope"id="emailicon"></span><a href="#" target="_top" id="email">: balogunrotimi.rb@gmail.com</a><br>
+<i class="fa fa-linkedin-square" id="linkedinicon"></i><span id="linkedin"><a href="http://www.linkedin.com/in/hamzat-balogun-3b157a113" target="_blank">: MyLinkedIn</a></span><br>	 
+<i class="material-icons" id="location">location_on</i><span>: 1975 St.Laurent Blvd, K1G3S7, Ottawa, ON, CANADA.</span>
+</address>
+</div>
+<div id="hline1"></div>
+
+<p id="summary">SUMMARY</p>
+<ul id="summaryParagraph">
+<li>Recent graduate and aspiring developer seeking to explore career possibilities through my engineering education. I am<br>
+familiar with various programming languages, Distributed Network Processing,and VHDL (hardware description language).<br>
+I am a confident,hardworking individual with an open mind who is determined and willing to learn to learn and expand my<br>
+experiences and problem solving skills. I am a reliable and collaborative team player as well as a  dependable and an<br>
+independentworker.</li>
+<li>Willing and can relocate</li>
+</ul>
+<p id="technicalSkills">TECHNICAL SKILLS</p>
+<ul id="techSkillsList">
+<li>Acquired a unique understanding of <strong>computer organization</strong>, <strong>microprocessor systems</strong> and <strong>computer system architecture</strong> <br>
+using Logisim software during my engineering education and study of the human brain <a href="##">Bridging the Gap project</a>.</li>
+<li>Knowledge of various web application tools (<strong>HTML5, CSS3, Javascript, SQL, PHP, BootStrap, Jquery, Angular,XML</strong>) obtained<br>
+from my engineering education and successfully completing the learning modules on<a href="https://www.w3schools.com/howto/"> w3schools.com</a> website.</li>
+<li>Practical knowledge of <strong>FPGA</strong> programming by implementing <strong>VHDL ((VHSIC Hardware Description Language)</strong> in the <strong>Intel<br>
+Quartus Prime design software</strong>.</li>
+<li>Implemented loops, if-else statements, Booleans and functions to solve problems in <strong>MATLAB, C++, Java</strong> (object oriented<br>
+ programming using BlueJ software).</li>
+<li>Proficient in several office programs such as <strong>MS-Word, MS-Powerpoint, MS-Excel</strong>.</li>
+</ul>
+<p id="experience">WORK EXPERIENCE</p>
+<ul id="workExperience">
+<p><span>UI/UX </span><span id="duration">designer May</span><span>2017 - Present</span> </p>  
+</ul>
+
+<div id="education"> 
+<span class="glyphicon glyphicon-education" id="educationicon">-<a href="https://carleton.ca/ece/about-ece/" target="_blank">Bachelor of Engineering in Electrical Engineering, August 2017</a></span>
+<div id="myprogressbar"> <div id="myprogress">10%</div> </div>
+<ul>
+<li style="font-size:18px;"><strong>Awarded with the Carleton University entrance Scholarship for outstanding performance</strong></li>
+</ul>
+</div>
+
+
+<script>
+
+$(document).ready(function move() {
+  var elem = document.getElementById("myprogress");   
+  var width = 10;
+  var id = setInterval(frame, 3);
+  function frame() {
+    if (width >= 100) {
+      clearInterval(id);
+    } else {
+      width++; 
+      elem.style.width = width + '%'; 
+      elem.innerHTML = width * 1  + '%';
+    }
+  }
+});
+
+</script>
+
+</body>
+</html>
